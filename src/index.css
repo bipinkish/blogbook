@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #555;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar h1 {
+  color: #153d47;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #072c35;
+}
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  margin-bottom: 50px;
+  border: 1px solid #f1eded;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+.blog-preview:hover {
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #153d47;
+  margin-bottom: 8px;
+}
+
+.blog-preview p {
+  line-height: 1cm;
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+/* blog details page */
+.blog-details h2 {
+  line-height: 1cm;
+  font-size: 20px;
+  color: #153d47;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+
+.blog-details p {
+  line-height: 1cm;
+}
+.blog-details button {
+  background: #153d47;
+  color: #fff;
+  margin-top: 50px;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #153d47;
+  margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  width: 100px;
+  background: #153d47;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.not-found p {
+  font-size: 70px;
+  margin-bottom: 100px;
+}
+
+.not-found a {
+  text-decoration: none;
+  width: 120px;
+  padding: 20px;
+  background: #153d47;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
